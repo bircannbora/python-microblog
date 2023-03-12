@@ -1,0 +1,164 @@
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+html{
+    font-family: sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.navbar{
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+
+.navbar__brand{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__logo{
+    margin-right: 20px;
+}
+
+.navbar__logo:hover{
+    opacity: 0.5;
+}
+
+.navbar__navigation{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    color: #5c6b70;
+}
+
+.navbar__navigation-item{
+    margin-left: 50px;
+}
+
+.navbar__link{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar__link:hover{
+    color: #5c6b707d;
+}
+
+.main{
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.form__input{
+    width: 100%;
+}
+
+
+
+.form__textarea{
+    width: inherit;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    background-color: #5c6b70;
+    border-radius: 8px;
+    margin-bottom: 19.92px;
+    resize: none;
+}
+
+.form__submit{
+    background-color: #3cd0ff;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: white;
+}
+
+.form__submit:hover{
+    cursor: pointer;
+    background-color: #3cd1ffd6;
+    transform: scale(1.1);
+}
+
+.entry{
+    margin-top: 30px;
+}
+
+.entry__title{
+    display: inline;
+    font-size: 18px;
+}
+
+.entry__date{
+    color: #5c6b70;
+}
+
+.entry__content{
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.footer{
+    background-color: #323f43;
+    padding: 40px 0px;
+    margin-top: 50px;
+    border-top: 4px solid black;
+    color: white;
+    font-size: 12px;
+}
+
+.footer__content{
+    max-width: 640px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__left{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+}
+
+.footer__right{
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__column{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.footer__item{
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__item:hover{
+    text-decoration: underline;
+}
